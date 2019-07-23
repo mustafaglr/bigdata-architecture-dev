@@ -190,9 +190,7 @@ https://www.keras.io
 
 3-Android Programming (activity_main.xml | MainActivity.java)
 
-4- Exported data from MongoDB (mongo.json)
-
-5-Crontab script (script)
+4-Crontab script (script)
 
 
 <br/><br/><br/><br/><br/>
