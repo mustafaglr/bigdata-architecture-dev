@@ -40,6 +40,14 @@ https://developer.android.com/studio/
 
 
 
+
+
+
+
+
+
+
+
 **Configuration and Run**
 
 ------------------------------------
@@ -178,6 +186,9 @@ main.py -> create_training_data()
 https://www.keras.io
 
 **3-Get Loss and Accuracy Values From Learned Machine**
+
+
+
 
 
 
