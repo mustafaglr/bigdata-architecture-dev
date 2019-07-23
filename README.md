@@ -31,32 +31,7 @@ https://download-cf.jetbrains.com/python/pycharm-professional-2019.1.tar.gz
 **7-Android Studio download link (latest version)**
 
 https://developer.android.com/studio/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/><br/><br/><br/><br/>
 
 ## **Configuration and Run**
 
@@ -102,7 +77,7 @@ Open crontab with “ crontab -e “ then append  “ * * * * * ~/Desktop/script
 
 bin/zookeeper-server-start.sh config/zookeeper.properties
 
- ![start-zookeper](https://github.com/mustafaglr/bigdata-architecture-dev/images/1.png)
+ ![start-zookeper](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/1.png)
 
 **Explanation:**
 
@@ -114,24 +89,24 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 
 bin/kafka-server-start.sh config/server.properties
 
- ![start-kafka-server](https://github.com/mustafaglr/bigdata-architecture-dev/images/2.png)
+ ![start-kafka-server](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/2.png)
 **6-Create A Topic**
 
 bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
 
- ![create-topic](https://github.com/mustafaglr/bigdata-architecture-dev/images/3.png)
+ ![create-topic](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/3.png)
 
 **7-Check for Topic**
 
 bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 
- ![check-for-topic](https://github.com/mustafaglr/bigdata-architecture-dev/images/4.png)
+ ![check-for-topic](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/4.png)
 
 **8-Start Spark Streaming with jar file**
 
 ./bin/spark-submit --packages org.apache.spark:spark-streaming-kafka-0-10\_2.11:2.4.0,org.mongodb:mongo-java-driver:3.10.0 --class org.apache.spark.spark\_streaming\_kafka\_0\_10\_2.App ~/Desktop/jars/sparkJava.jar
 
- ![start-spark-streaming](https://github.com/mustafaglr/bigdata-architecture-dev/images/5.png)
+ ![start-spark-streaming](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/5.png)
 
 **Explanation:**
 
@@ -147,26 +122,27 @@ bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 
 bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 
- ![create-producer](https://github.com/mustafaglr/bigdata-architecture-dev/images/6.png)
+ ![create-producer](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/6.png)
 
 **Explanation:**
 
  to send messages from bigdata file use: cat ~/WISDM_ar_v1.1_raw.txt | bin/kafka-console-producer.sh …
 
-![produce-fromfile](https://github.com/mustafaglr/bigdata-architecture-dev/images/7.png)
+![produce-fromfile](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/7.png)
 
 **10-Check For Status of Spark Streaming on localhost:4040**
 
-![check-status](https://github.com/mustafaglr/bigdata-architecture-dev/images/8.png)
+![check-status](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/8.png)
 
 Active Batches;
 
-![active-batches](https://github.com/mustafaglr/bigdata-architecture-dev/images/9.png)
+![active-batches](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/9.png)
 
 Completed Batches;
 
- ![completed-batches](https://github.com/mustafaglr/bigdata-architecture-dev/images/10.png)
+ ![completed-batches](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/10.png)
 
+<br/><br/><br/><br/><br/>
 ## **Storage**
 
 ------------------------------------
@@ -175,29 +151,13 @@ Completed Batches;
 
 db.collection.find({})
 
-![check-db](https://github.com/mustafaglr/bigdata-architecture-dev/images/11.png)
+![check-db](https://github.com/mustafaglr/bigdata-architecture-dev/images/blob/master/11.png)
 
 **Explanation:**
 
  collection is your collection name inside database
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/><br/><br/><br/><br/>
 ## **Deep Learning**
 
 ------------------------------------
@@ -212,26 +172,7 @@ https://www.keras.io
 
 **3-Get Loss and Accuracy Values From Learned Machine**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/><br/><br/><br/><br/>
 
 ## **Files**
 
@@ -248,24 +189,7 @@ https://www.keras.io
 5-Crontab script (script)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/><br/><br/><br/><br/>
 
 ## **References**
 
