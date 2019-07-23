@@ -1,6 +1,6 @@
 # bigdata-architecture-dev
 
-**Download**
+## **Download**
 
 **------------------------------------**
 
@@ -48,7 +48,17 @@ https://developer.android.com/studio/
 
 
 
-**Configuration and Run**
+
+
+
+
+
+
+
+
+
+
+## **Configuration and Run**
 
 ------------------------------------
 
@@ -157,7 +167,7 @@ Completed Batches;
 
  ![completed-batches](https://github.com/mustafaglr/bigdata-architecture-dev/images/10.png)
 
-**Storage**
+## **Storage**
 
 ------------------------------------
 
@@ -173,7 +183,22 @@ db.collection.find({})
 
 
 
-**Deep Learning**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## **Deep Learning**
 
 ------------------------------------
 
@@ -198,7 +223,17 @@ https://www.keras.io
 
 
 
-**Files**
+
+
+
+
+
+
+
+
+
+
+## **Files**
 
 ------------------------------------
 
@@ -214,7 +249,25 @@ https://www.keras.io
 
 
 
-**References**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## **References**
 
 ------------------------------------
 
