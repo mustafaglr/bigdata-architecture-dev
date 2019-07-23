@@ -45,7 +45,7 @@ Load project through USB from Android Studio
 
 **Explanation:**
 
-**       ** Make sure the phone connected same internet with computer
+Make sure the phone connected same internet with computer
 
 **2-Create Port Listener**
 
@@ -53,15 +53,15 @@ nc -l -k 192.168.1.107 5000 >> ~/Desktop/listener.txt
 
 **Explanation:**
 
-**       ** Listen specific ip:port combination and write datas to file
+Listen specific ip:port combination and write datas to file
 
-           -l for listen mode
+      -l for listen mode
 
-           -k to keep open always
+      -k to keep open always
 
-           >>  to append to file
+      >>  to append to file
 
-           and location of record file (~/Desktop/listener.txt)
+      and location of record file (~/Desktop/listener.txt)
 
 **3-Setting up Crontab**
 
@@ -69,7 +69,7 @@ Open crontab with “ crontab -e “ then append  “ * * * * * ~/Desktop/script
 
 **Explanation:**
 
-**       ** It works every minute to push data which comes from phone to kafka producer
+It works every minute to push data which comes from phone to kafka producer
 
             Check for more : https://crontab.guru/ **       **
 
@@ -134,11 +134,11 @@ bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
 
 ![check-status](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/8.png)
 
-Active Batches;
+**Active Batches;**
 
 ![active-batches](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/9.png)
 
-Completed Batches;
+**Completed Batches;**
 
  ![completed-batches](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/10.png)
 
@@ -151,7 +151,7 @@ Completed Batches;
 
 db.collection.find({})
 
-![check-db](https://github.com/mustafaglr/bigdata-architecture-dev/images/blob/master/11.png)
+![check-db](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/images/11.png)
 
 **Explanation:**
 
