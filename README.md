@@ -77,7 +77,7 @@ Open crontab with “ crontab -e “ then append  “ * * * * * ~/Desktop/script
 
 It works every minute to push data which comes from phone to kafka producer
 
-            Check for more : https://crontab.guru/ **       **
+Check for more : https://crontab.guru/ 
 
 **4-Start Zookeper**
 
