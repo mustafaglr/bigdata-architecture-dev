@@ -1,7 +1,8 @@
 # bigdata-architecture-dev
 
-![arc](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/arc.png)
-
+<p align="center">
+  <img src="https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/arc.png">
+</p>
 <br/><br/><br/><br/><br/>
 
 
