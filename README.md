@@ -1,5 +1,10 @@
 # bigdata-architecture-dev
 
+![arc](https://github.com/mustafaglr/bigdata-architecture-dev/blob/master/arc.png)
+
+<br/><br/><br/><br/><br/>
+
+
 ## **Download**
 
 **------------------------------------**
