@@ -170,11 +170,7 @@ db.collection.find({})
 
 **1-Get Datas With Function From MongoDB**
 
-main.py -> create_training_data()
-
-**2-Create Model using Keras**
-
-https://www.keras.io
+**2-Create Model using LSTM and kNN**
 
 **3-Get Loss and Accuracy Values From Learned Machine**
 
